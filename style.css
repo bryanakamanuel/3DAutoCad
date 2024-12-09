@@ -1,0 +1,90 @@
+body {
+    font-family: '';
+    margin: 0;
+    padding: 0;
+    background-color: ;
+  }
+
+header h2 {
+  margin: 0;
+}
+  header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #555;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.info-container {
+    text-align: left;
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 600px;
+}
+  
+.info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .name,
+  .class,
+  .npm,
+  .assignment {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .controls {
+    text-align: center;
+    margin: 10px 0;
+    
+  }
+
+  button {
+    background: linear-gradient(135deg, #000000, #000000);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Efek hover */
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  #previous:hover {
+    background: linear-gradient(135deg, #000000, #000000);
+  }
+  
+  
+  #next:hover {
+    background: linear-gradient(135deg, #000000, #000000);
+  }
+  
+  canvas {
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .aku {
+    padding: 10px;
+    padding-bottom: 200px;
+  }
